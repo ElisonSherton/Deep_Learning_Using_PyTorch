@@ -67,7 +67,7 @@ The tasks in a neural network are [embarrassingly parallel](https://en.wikipedia
 It's easy to use GPUs in python. Just do the following
 
 ```python
-tens = torch.tensor([1, 2, 3])
+t = torch.tensor([1, 2, 3])
 print(t)
 
 t = t.cuda()
